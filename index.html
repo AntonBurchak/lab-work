@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lab work n.1</title>
+<link href="assets/css/app.css" rel="stylesheet"></head>
+
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <li><a href="#" data-link="text-format" class="active">Text & Format</a></li>
+                    <li><a href="#" data-link="html-structure">Html structure</a></li>
+                    <li><a href="#" data-link="images-gallery">Images Gallery</a></li>
+                    <li><a href="#" data-link="tables">Tables - Knowledge & use</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <section class="preload">
+            <div class="preload__inner">
+                <h1 class="preload__h">«»</h1>
+                <p class="preload__autor"></p>
+            </div>
+               
+        </section>
+        <div class="wrapper">
+            <section class="page text-format active">
+                <div class="main__inside">
+                    <h1 class="main__title">Text & Format</h1>
+                    <div class="main__content">
+                        <p class="text">
+                            HTML provides several tags that you can use to make some text on your web pages to appear differently than normal text, for example, you can use the tag &lt;b&gt; to make the text bold, tag &lt;i&gt; to make the text italic, tag &lt;mark&gt; to highlight the text, tag &lt;code&gt; to display a fragment of computer code, tags &lt;ins&gt; and &lt;del&gt; for marking editorial insertions and deletions, and more. The following example demonstrates the most commonly used formatting tags in action. Now, let's try this out to understand how these tags basically work:
+                        </p>
+                        <div class="main__section">
+                            <h2 class="main__section-name">physical and logical formatting tags</h2>
+                            <ul class="main__section-list">
+                                <li class="b">
+                                    <div data-value="Click me!">&lt;b&gt;</div>
+                                    <div class="result">
+                                        <div class="r1">
+                                            <p>Code view</p>
+                                            <codetext data-text="This is sample <b>text</b>, about lorem ipsum!">
+                                                This is sample <b>text</b>, about lorem ipsum!
+                                            </codetext>
+                                        </div>
+                                        <div class="r2">
+                                            <p>View result</p>
+                                            <codeview>
+                                                This is sample <b>text</b>, about lorem ipsum!
+                                            </codeview>
+                                        </div>
+                                    </div>
+                                    <p class="description">Sets the bold font style. It is valid to use this tag with other tags.</p>
+                                </li>
+                                <li class="strong">
+                                    <div>&lt;strong&gt;</div>
+                                    <div class="result">
+                                        <div class="r1">
+                                            <p>Code view</p>
+                                            <codetext data-text="This is sample <strong>important</strong> text!">
+                                                This is sample <strong>important</strong> text!
+                                            </codetext>
+                                        </div>
+                                        <div class="r2">
+                                            <p>View result</p>
+                                            <codeview>
+                                                This is sample <strong>important</strong> text!
+                                            </codeview>
+                                        </div>
+                                    </div>
+                                    <p class="description">The HTML &lt;strong&gt; element defines strong text, with added semantic "strong" importance.</p>
+                                </li>
+                                <li class="i">
+                                    <div>&lt;i&gt;</div>
+                                    <div class="result">
+                                        <div class="r1">
+                                            <p>Code view</p>
+                                            <codetext data-text="This is sample <i>text</i>, about lorem ipsum!">
+                                                This is sample <i>text</i>, about lorem ipsum!
+                                            </codetext>
+                                        </div>
+                                        <div class="r2">
+                                            <p>View result</p>
+                                            <codeview>
+                                                This is sample <i>text</i>, about lorem ipsum!
+                                            </codeview>
+                                        </div>
+                                    </div>
+                                    <p class="description">The HTML &lt;i&gt; element defines italic text, without any extra importance.</p>
+                                </li>
+                                <li class="em">
+                                    <div>&lt;em&gt;</div>
+                                    <div class="result">
+                                        <div class="r1">
+                                            <p>Code view</p>
+                                            <codetext data-text="This is sample <em>important</em> text!">
+                                                This is sample <em>important</em> text!
+                                            </codetext>
+                                        </div>
+                                        <div class="r2">
+                                            <p>View result</p>
+                                            <codeview>
+                                                This is sample <em>important</em> text!
+                                            </codeview>
+                                        </div>
+                                    </div>
+                                    <p class="description">The HTML &lt;em&gt; element defines emphasized text, with added semantic importance.</p>
+                                </li>
+                                <li class="mark">
+                                    <div>&lt;mark&gt;</div>
+                                    <div class="result">
+                                        <div class="r1">
+                                            <p>Code view</p>
+                                            <codetext data-text="This is <mark>highlight</mark> text!">
+                                                This is
+                                                <mark>highlight</mark> text!
+                                            </codetext>
+                                        </div>
+                                        <div class="r2">
+                                            <p>View result</p>
+                                            <codeview>
+                                                This is
+                                                <mark>highlight</mark> text!
+                                            </codeview>
+                                        </div>
+                                    </div>
+                                    <p class="description">The HTML &lt;mark&gt; element defines marked/highlighted text
+                                    </p>
+                                </li>
+                                <li class="small">
+                                    <div>&lt;small&gt;</div>
+                                    <div class="result">
+                                        <div class="r1">
+                                            <p>Code view</p>
+                                            <codetext data-text="This is sample <small>small</small> text!">
+                                                This is sample <small>small</small> text!
+                                            </codetext>
+                                        </div>
+                                        <div class="r2">
+                                            <p>View result</p>
+                                            <codeview>
+                                                This is sample <small>small</small> text!
+                                            </codeview>
+                                        </div>
+                                    </div>
+                                    <p class="description">The HTML &lt;small&gt; element defines smaller text</p>
+                                </li>
+                                <li class="del">
+                                    <div>&lt;del&gt;</div>
+                                    <div class="result">
+                                        <div class="r1">
+                                            <p>Code view</p>
+                                            <codetext data-text="This is sample deleted <del>text</del>!">
+                                                This is sample deleted <del>text</del>!
+                                            </codetext>
+                                        </div>
+                                        <div class="r2">
+                                            <p>View result</p>
+                                            <codeview>
+                                                This is sample deleted <del>text</del>!
+                                            </codeview>
+                                        </div>
+                                    </div>
+                                    <p class="description">The HTML &lt;del&gt; element defines deleted/removed text.
+                                    </p>
+                                </li>
+                                <li class="ins">
+                                    <div>&lt;ins&gt;</div>
+                                    <div class="result">
+                                        <div class="r1">
+                                            <p>Code view</p>
+                                            <codetext data-text="This is sample <ins>text</ins>, about lorem ipsum!">
+                                                This is sample <ins>text</ins>, about lorem ipsum!
+                                            </codetext>
+                                        </div>
+                                        <div class="r2">
+                                            <p>View result</p>
+                                            <codeview>
+                                                This is sample <ins>text</ins>, about lorem ipsum!
+                                            </codeview>
+                                        </div>
+                                    </div>
+                                    <p class="description">The HTML &lt;ins&gt; element defines inserted/added text.</p>
+                                </li>
+                                <li class="sub">
+                                    <div>&lt;sub&gt;</div>
+                                    <div class="result">
+                                        <div class="r1">
+                                            <p>Code view</p>
+                                            <codetext data-text="This is sample <sub>text</sub>!">
+                                                This is sample <sub>text</sub>!
+                                            </codetext>
+                                        </div>
+                                        <div class="r2">
+                                            <p>View result</p>
+                                            <codeview>
+                                                This is sample <sub>text</sub>!
+                                            </codeview>
+                                        </div>
+                                    </div>
+                                    <p class="description">The HTML &lt;sub&gt; element defines subscripted text.</p>
+                                </li>
+                                <li class="sup">
+                                    <div>&lt;sup&gt;</div>
+                                    <div class="result">
+                                        <div class="r1">
+                                            <p>Code view</p>
+                                            <codetext data-text="This is sample <sup>text</sup>!">
+                                                This is sample <sup>text</sup>!
+                                            </codetext>
+                                        </div>
+                                        <div class="r2">
+                                            <p>View result</p>
+                                            <codeview>
+                                                This is sample <sup>text</sup>!
+                                            </codeview>
+                                        </div>
+                                    </div>
+                                    <p class="description">The HTML &lt;sup&gt; element defines superscripted text.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="page html-structure">
+                <div class="main__inside">
+                    <h1 class="main__title">Html Structure</h1>
+                    <div class="main__content">
+                        <p class="text">
+                            HTML is a mark-up language with ‘tags’ identifying parts of the document to behave in a certain way, for example, to act as a link or to make the text bold. Tags generally consist of an opening and closing pair. They are written in lower case using angled brackets ie &lt;html&gt;.
+                        </p>
+                        <div class="main__section">
+                            <h2 class="main__section-name">What about structure tags?</h2>
+                            <div class="sect-wrap">
+                                <ul class="main__section-list">
+                                    <li><a href="#" class="section" data-value="Click me again!">&lt;section&gt;</a></li>
+                                    <li><a href="" class="header">&lt;header&gt;</a></li>
+                                    <li><a href="" class="footer">&lt;footer&gt;</a></li>
+                                    <li><a href="" class="nav">&lt;nav&gt;</a></li>
+                                    <li><a href="" class="aside">&lt;aside&gt;</a></li>
+                                    <li><a href="" class="article">&lt;article&gt;</a></li>
+                                    <li><a href="" class="figure">&lt;figure&gt;</a></li>
+                                    <li><a href="" class="dialog">&lt;dialog&gt;</a></li>
+                                </ul>
+                                <div class="i i-section">
+                                    <h2>&lt;section&gt;</h2>
+                                    <p>The section tag groups content by topic, or, in other words, defines a section of a document. Usually preceded by header, may be in footer. The section tag can be enclosed inside another section tag, if necessary, and contain any amount of markup. In normal html, as a rule, a div is used instead of the section tag.</p>
+                                    <div class="close"></div>
+                                </div>
+                                <div class="i i-header">
+                                    <h2>&lt;header&gt;</h2>
+                                    <p>The header tag usually contains a heading or groups headings, but may also contain section information.
+                                        <br> In other words, the header tag defines the header of the site (the site header).</p>
+                                    <div class="close"></div>
+                                </div>
+                                <div class="i i-footer">
+                                    <h2>&lt;footer&gt;</h2>
+                                    <p>The footer tag usually contains information about the section, for example: article author, date, copyright, etc.</p>
+                                    <div class="close"></div>
+                                </div>
+                                <div class="i i-nav">
+                                    <h2>&lt;nav&gt;</h2>
+                                    <p>The nav tag defines a navigation area, usually a list of links. The nav tag is the sibling of the main section (section), header (header) and footer (footer).</p>
+                                    <div class="close"></div>
+                                </div>
+                                <div class="i i-aside">
+                                    <h2>&lt;aside&gt;</h2>
+                                    <p>The aside tag defines content that is located around the main content. This can be a sidebar (sidebar), containing a series of links to articles, to the archive, to tags.</p>
+                                    <div class="close"></div>
+                                </div>
+                                <div class="i i-article">
+                                    <h2>&lt;article&gt;</h2>
+                                    <p>The article tag defines any independent record (article) on the site, or, for example, it can be a resume, a description of the product in an online store, and so on.</p>
+                                    <div class="close"></div>
+                                </div>
+                                <div class="i i-figure">
+                                    <h2>&lt;figure&gt;</h2>
+                                    <p>Sometimes it is necessary to place the image and the text attached to it as a single illustration. The figure element indicates that the text and image are parts of a whole.</p>
+                                    <div class="close"></div>
+                                </div>
+                                <div class="i i-dialog">
+                                    <h2>&lt;dialog&gt;</h2>
+                                    <p>Its dialog is the area where comments are displayed (conversation, conversation). The dialog tag consists of the following parts:</p>
+                                    <ol>
+                                        <li>The &lt;dialog&gt; tag itself, which defines a block with comments</li>
+                                        <li>The &lt;dt&gt; tag will determine who says</li>
+                                        <li>The &lt;dd&gt; tag defines the comment text</li>
+                                    </ol>
+                                    <div class="close"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="page images-gallery">
+                <div class="main__inside">
+                    <h1 class="main__title active">images gallery</h1>
+                    <div class="main__content active">
+                        <div class="gallery">
+                            <div><img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg" alt=""></div>
+                            <div> <img src="https://static.toiimg.com/photo/72975551.cms" alt=""></div>
+                            <div> <img src="https://images.unsplash.com/photo-1494548162494-384bba4ab999?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" alt=""></div>
+                            <div> <img src="https://images.unsplash.com/photo-1535498730771-e735b998cd64?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" alt=""></div>
+                            <div> <img src="https://www.w3schools.com/w3css/img_lights.jpg" alt=""></div>
+                            <div> <img src="https://i.pinimg.com/originals/0f/8a/d7/0f8ad7c5b020edfe1a7e2d2b308bd9ec.jpg" alt=""></div>
+                            <div> <img src="https://cdn.pixabay.com/photo/2020/01/19/11/10/mountains-4777410__340.jpg" alt=""></div>
+                            <div> <img src="https://3v6x691yvn532gp2411ezrib-wpengine.netdna-ssl.com/wp-content/uploads/2019/05/imagetext01.jpg" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="page tables">
+                <div class="main__inside">
+                    <h1 class="main__title">TABLES - <br>KNOWLEDGE & USE</h1>
+                    <div class="main__content">
+                        <p class="text">
+                            HTML tables organize and display data using rows or columns. Tables are made up of cells that form at the intersection of rows and columns. Table cells can contain any HTML elements, such as headings, lists, text, images, form elements, and other tables. You can add a title to each table by placing it in front of or after the table.
+                            <br>
+                            <br> Tables are no longer used for layout of web pages and layout of individual elements, because such a technique does not provide the flexibility of the structure and adaptability of the site, significantly increasing HTML markup.
+                        </p>
+                        <div class="main__section">
+                            <h2 class="main__section-name">What about structure tags?</h2>
+
+                            <table>
+                                <tr>
+                                    <th>Company</th>
+                                    <th>Q1</th>
+                                    <th>Q2</th>
+                                    <th>Q3</th>
+                                    <th>Q4</th>
+                                </tr>
+                                <tr>
+                                    <td>Microsoft</td>
+                                    <td>20.3</td>
+                                    <td>30.5</td>
+                                    <td>23.5</td>
+                                    <td>40.3</td>
+                                </tr>
+                                <tr>
+                                    <td>Google</td>
+                                    <td>50.2</td>
+                                    <td>40.63</td>
+                                    <td>45.23</td>
+                                    <td>39.3</td>
+                                </tr>
+                                <tr>
+                                    <td>Apple</td>
+                                    <td>25.4</td>
+                                    <td>30.2</td>
+                                    <td>33.3</td>
+                                    <td>36.7</td>
+                                </tr>
+                                <tr>
+                                    <td>IBM</td>
+                                    <td>20.4</td>
+                                    <td>15.6</td>
+                                    <td>22.3</td>
+                                    <td>29.3</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+    <div class="imgParent">
+        <div class="prev"></div>
+
+        <img src="" alt="">
+
+        <div class="next"></div>
+        <div class="close"></div>
+    </div>
+
+    <div class="animation">
+        
+    </div>
+<script type="text/javascript" src="js/app.js"></script></body>
+
+</html>
